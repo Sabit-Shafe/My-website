@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color: #3e3e3e;
+  }
+  /* For reuse*/
+  .orange {
+    color: orangered;
+  }
+  .mission {
+    background-color: rgba(94, 94, 69, 0.2);
+  }
+  
+  .vision {
+    background-color: rgba(255, 188, 203, 0.2)
+  }
+  
+  .goals {
+    background-color: rgba(255, 255, 0, 0.2);
+  }
+  
+  .btn {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(171, 20, 177);
+    padding: 14px 28px;
+    margin-top: 25px;
+    border-radius: 7px;
+  }
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* 1st section*/
+  
+  .stayfocused-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 35px 0;
+  }
+  .slog {
+    font-family: "Yeseva One", cursive;
+    font-size: 70px;
+    border-left: 4px solid rgb(212, 65, 12);
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  .stay-section {
+    text-align: justify;
+    width: 45%;
+  }
+  .main-image {
+    width: 35%;
+  }
+/* 2nd section-Mission */
+  .mission-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 60px;
+  }
+  .mission-heading {
+    font-size: 40px;
+    color: rgb(112, 11, 107);
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .card {
+    width: 22%;
+    margin: 0px 50px;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px gray;
+  }
+  .card-image {
+    width: 45%;
+  }
+  
+  /* others */
+.background-section {
+    background-image: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("./images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-size: 20%;
+    padding: 60px 0px;
+    justify-content: space-around;
+  }
+  .bg-left {
+    background-position: left 10px top 85px;
+  }
+  .bg-right {
+    background-position: right 5px bottom 5px;
+  }
+  .random-image {
+    width: 30%;
+  }
+  .description {
+    width: 45%;
+  }
+  .footer-container {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 32px 0;
+  }
+  .footer-heading {
+    font-family: "Lobster", cursive;
+    font-size: 36px;
+    font-weight: normal;
+  }
+  .footer-details {
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+  }
+  /*for web part*/
+  .library img{
+    width: 80%;
+    height:100%
+    }
+    .library{
+        width:70%;
+    }
+    .link-button{
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(171, 20, 177);
+    padding: 14px 28px;
+    margin-top: 25px;
+    border-radius: 7px;
+    }
+    .flexible-container{
+        display: flex;
+        margin-bottom: 120px;
+        margin-left: 100px;
+        margin-top: 110px;
+    }
